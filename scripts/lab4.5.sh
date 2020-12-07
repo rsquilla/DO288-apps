@@ -5,7 +5,7 @@ source $HOME/DO288-apps/bin/_pause.sh
 source $HOME/DO288-apps/bin/_main.sh
 source $HOME/DO288-apps/bin/_oc_get_pods_last_running.sh
 
-
+ 
 function __2() {
  echo 2.2 ;
  oc login -u ${RHT_OCP4_DEV_USER} -p ${RHT_OCP4_DEV_PASSWORD} ${RHT_OCP4_MASTER_API} ; pause
